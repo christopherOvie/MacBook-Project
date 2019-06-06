@@ -1,0 +1,154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10287412400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the url \u0027https://www.apple.com/uk/\u0027",
+            "match": {
+              "location": "OrderStep_Definitn.the_url_https_www_apple_com_uk()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "A MacBook 15\" with accessories can be ordered on the website",
+        "description": "",
+        "id": "buying-a-macbook-pro-on-the-website;a-macbook-15\"-with-accessories-can-be-ordered-on-the-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1202443800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Mac link",
+            "match": {
+              "location": "OrderStep_Definitn.i_click_on_Mac_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1144175800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I also click on MacBook Pro Icon",
+            "match": {
+              "location": "OrderStep_Definitn.i_also_click_on_MacBook_Pro_Icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 731969900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on the Tech Specs link",
+            "match": {
+              "location": "OrderStep_Definitn.i_click_on_the_Tech_Specs_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17367802900,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"input[id\u003d\u002715-inch-label\u0027]\"}\n  (Session info: chrome\u003d75.0.3770.80)\n  (Driver info: chromedriver\u003d2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform\u003dWindows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 81 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027LAPTOP-7AQ443V9\u0027, ip: \u0027192.168.1.22\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:63042}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir\u003dC:\\Users\\User\\AppData\\Local\\Temp\\scoped_dir9652_28957}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d75.0.3770.80, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 490f3ee75f9500a77c3dde8c24a2ec74\n*** Element info: {Using\u003dcss selector, value\u003dinput[id\u003d\u002715-inch-label\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:465)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat step_Definitn.OrderStep_Definitn.i_choose_a_MacBook_Pro_with_the_following_features_and_accessories(OrderStep_Definitn.java:68)\r\n\tat ✽.When I choose a MacBook Pro with the following features and accessories(order.feature:13)\r\n",
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "I choose a MacBook Pro with the following features and accessories",
+            "match": {
+              "location": "OrderStep_Definitn.i_choose_a_MacBook_Pro_with_the_following_features_and_accessories(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Options",
+                  "Specifications"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "Screen",
+                  "15\u0027\u0027"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "Processor",
+                  "2.9GHz"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "Memory RAM",
+                  "16GB"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "Colour",
+                  "Silver"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "Software",
+                  "Logic Pro X"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "Display adapter",
+                  "USB-C to USB Adapter"
+                ],
+                "line": 20
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I can place an order for it.",
+            "match": {
+              "location": "OrderStep_Definitn.i_can_place_an_order_for_it()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Buying a MacBook Pro on the website",
+    "description": "\r\nAs an online customer\r\nI want to choose a MacBook Pro with accessories on the website So that I can buy it online",
+    "id": "buying-a-macbook-pro-on-the-website",
+    "keyword": "Feature",
+    "uri": "order.feature"
+  }
+]
